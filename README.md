@@ -12,7 +12,7 @@ Time spent: 4 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.15
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![alt text](https://github.com/davjd/CodePath-Week-7-Project/blob/master/largefile.gif)
   - [ ] Steps to recreate: Download a file of size larger than 10mb. Rename it with an xss attack. Upload as a media file on wordpress. 
   - [ ] Affected source code: handlers.min.js 
     - [Link 1](https://hackerone.com/reports/203515)
@@ -21,7 +21,7 @@ Time spent: 4 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![alt text](https://github.com/davjd/CodePath-Week-7-Project/blob/master/xss.gif)
   - [ ] Steps to recreate: Initialize a post. Insert lots of text(about 64kb worth of text). Insert an xss attack inside the text. Upload the post. View the post.
   - [ ] Affected source code:
     - [Link 2](https://klikki.fi/adv/wordpress2.html)
@@ -30,7 +30,7 @@ Time spent: 4 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![alt text](https://github.com/davjd/CodePath-Week-7-Project/blob/master/authenticated_stored_xss.gif)
   - [ ] Steps to recreate: Initialize a post. Insert an xss attack(has to be advance) as an admin. Upload the post. View the post.
   - [ ] Affected source code:
     - [Link 3](https://klikki.fi/adv/wordpress3.html)
